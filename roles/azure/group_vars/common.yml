@@ -1,0 +1,21 @@
+
+##################################################
+# Common Variables
+##################################################
+
+app:
+    name: "azuredevops"
+
+azure:
+    location: "southcentralus"
+
+##################################################
+# Defaults - These should be OK to leave as is
+##################################################
+
+# Dictionary - for affixes
+##################################################
+dict:
+  resource_group: "_ResourceGroupAbbr_"
+
+  #$ResourceGroup="$env:ResourceGroupAbbr-$env:SubscriptionAbbr-$env:LocationAbbreviated-$env:EnvAbbreviated-$env:AppNameAbbr"
