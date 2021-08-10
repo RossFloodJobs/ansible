@@ -1,0 +1,19 @@
+
+##################################################
+# Common Variables
+##################################################
+
+app:
+    name: "azuredevops"
+
+azure:
+    location: "southcentralus"
+
+##################################################
+# Defaults - These should be OK to leave as is
+##################################################
+
+# Dictionary - for affixes
+##################################################
+dict:
+  resource_group: "rg"
