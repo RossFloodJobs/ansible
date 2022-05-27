@@ -10,3 +10,6 @@
 
   roles:
     - roles/resourcegroup
+
+- test: echo
+    echo "test" 
